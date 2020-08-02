@@ -5,6 +5,6 @@ function whisper(string) {
    return string.toLowerCase()
 }
 function logShout(string){
-  if(string.toUpperCase()) {
+  if(string.toUpperCase('HELLO')) {
     console.log ("YES INDEED!")
   }}
